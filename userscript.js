@@ -18,6 +18,8 @@
 // @grant             GM.unregisterMenuCommand
 // @run-at            document-idle
 // @icon              https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
+// @downloadURL https://update.greasyfork.org/scripts/514276/ChatGPT%20Realtime%20Model%20Switcher%3A%204o-mini%2C%20o4-mini%2C%20o3%20and%20more%21.user.js
+// @updateURL https://update.greasyfork.org/scripts/514276/ChatGPT%20Realtime%20Model%20Switcher%3A%204o-mini%2C%20o4-mini%2C%20o3%20and%20more%21.meta.js
 // ==/UserScript==
 
 (async function() {
@@ -68,6 +70,7 @@
         [ "free", "o4-mini", "o4-mini" ],
         [ "plus", "o4-mini-high", "o4-mini-high" ],
         [ "free", "gpt-3.5", "gpt-3-5" ],
+        [ "free", "gpt-4.1-mini", "gpt-4-1-mini" ],
         [ "free", "4o-mini", "gpt-4o-mini" ],
         // [ "free", "gpt-4", "gpt-4" ], // same as 4o
         [ "free", "gpt-4o", "gpt-4o" ],
@@ -133,6 +136,7 @@
           --o1-pro-color: 139, 232, 27;
           --o3-color: 139, 232, 27;
           --gpt-3-5-color: 0, 106, 129;
+          --gpt-4-1-mini-color: 201, 42, 42;
           --gpt-4-5-color: 126, 3, 165;
           --gpt-4o-color: 18, 45, 134;
           --o4-mini-high-color: 176, 53, 0;
